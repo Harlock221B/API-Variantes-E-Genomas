@@ -7,35 +7,41 @@
 # Passo 1:
   Instalar as dependencias do projeto no ambiente que desejar:
   
-  pip install -r requirements. txt 
+    pip install -r requirements. txt 
   
   ou 
   
-  pip install django djangorestframework
+    pip install django djangorestframework
 
 # Passo 2
   Inicializar o projeto:
   
-  python manage.py runserver 
+    python manage.py runserver 
 
-#API tem 2 formas de requisicões
+# API tem 2 formas de requisicões
 
-#Insominia ou Postman:
-  baseURl: "localhost:8000"
+# Insominia ou Postman:
 
-#GET
+    baseURl: "localhost:8000"
+
+# GET
   Pegar todos os registros:
-  localhost:8000/pacientes
-  localhost:8000/variantes
   
+    localhost:8000/pacientes
+    
+    localhost:8000/variantes
+    
   pegar um registro especifico:
-  localhost:8000/variantes/(numero do id)
-  localhost:8000/pacientes/(numero do id)
+                 
+    localhost:8000/variantes/(numero do id)
+ 
+    localhost:8000/pacientes/(numero do id)
 
-#POST
+# POST
   para variantes:
+  
     localhost:8000/variantes/
-    exemplo:
+   exemplo:
     
     {		
     	"cromossomo": "chr2",
@@ -44,8 +50,9 @@
     	"base_alternativa": "T"
     }
   para pacientes:
+    
     localhost:8000/pacientes/
-    exemplo:
+   exemplo:
     
     {
       "nome": "ulisses",
@@ -58,25 +65,31 @@
 
 #PUT
   para paciente:
+  
     localhost:8000/pacientes/(id do paciente)/
-    exemplo:
+    
+   exemplo:
     ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/c1fb72fc-622f-4a8b-bbaa-dc25950ee4ea)
   
     
   para variantes:
+    
     localhost:8000/variantes/(id da variante)/
-    exemplo:
+    
+   exemplo:
     ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/2103e4e4-acbe-4281-a1ef-c1b71a061aea)
   
-  #DELETE
+# DELETE
   para paciente:
+     
      localhost:8000/pacientes/(id do paciente)/
      
   para variantes:
+     
      localhost:8000/variantes/(id da variante)/
   
 
-#Sistema Django
+# Sistema Django
   Ao inicializar o projeto voce podera vizualizar esta tela:
    ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/9c11102e-f133-4ebd-b919-fc52d5ba898c)
   
@@ -89,7 +102,7 @@
   
   para poder atualizar ou deletar um paciente ou uma variante vc deve copiar o seu id e colocar na guia em frente desta maneira:
   
-  http://127.0.0.1:8000/pacientes/(numero do id)
+    http://127.0.0.1:8000/pacientes/(numero do id)
   
   e voce sera levado para esta pagina:
   ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/dffd6505-c6f1-401e-9ccf-ac9778e500d4)
