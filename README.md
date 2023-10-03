@@ -63,7 +63,7 @@
       ]
     }
 
-#PUT
+# PUT
   para paciente:
   
     localhost:8000/pacientes/(id do paciente)/
