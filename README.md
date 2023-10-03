@@ -4,7 +4,7 @@
 
  como subir o projeto local:
  
-# Se quiser executar no VS Code:
+# Se quiser executar em um ambiente virtual:
   Criar uma VENV:
   
    Adicionar Venv ao projeto
