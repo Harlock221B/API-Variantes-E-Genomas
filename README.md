@@ -102,7 +102,7 @@
   
   para poder atualizar ou deletar um paciente ou uma variante vc deve copiar o seu id e colocar na guia em frente desta maneira:
   
-    http://127.0.0.1:8000/pacientes/(numero do id)
+    localhost:8000/pacientes/(numero do id)
   
   e voce sera levado para esta pagina:
   ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/dffd6505-c6f1-401e-9ccf-ac9778e500d4)
