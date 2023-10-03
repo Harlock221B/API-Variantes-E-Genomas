@@ -4,10 +4,21 @@
 
  como subir o projeto local:
  
-# Passo 1:
+# Se quiser executar no VS Code:
+  Criar uma VENV:
+  
+   Adicionar Venv ao projeto
+      
+      python -m venv nome_do_ambiente_virtual
+      
+   Ativando Venv
+   
+      nome_do_ambiente_virtual\Scripts\activate
+  
+  # Passo 1:
   Instalar as dependencias do projeto no ambiente que desejar:
   
-    pip install -r requirements. txt 
+    pip install -r requirements.txt 
   
   ou 
   
