@@ -35,8 +35,8 @@
 #POST
   para variantes:
     localhost:8000/variantes/
-  
     exemplo:
+    
     {		
     	"cromossomo": "chr2",
     	"posicao": 1458,
@@ -45,8 +45,8 @@
     }
   para pacientes:
     localhost:8000/pacientes/
-  
     exemplo:
+    
     {
       "nome": "ulisses",
       "sexo": "M",
