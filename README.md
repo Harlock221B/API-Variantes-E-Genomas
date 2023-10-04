@@ -109,7 +109,7 @@
   ![image](https://github.com/Harlock221B/desafio-segunda-etapa/assets/64704484/4e245a8d-fb4f-413b-b6f6-0a196c067334)
   
   E vão conseguir aessar os get's para vizualizar e fazer post's para adicionar novos pacientes ou variantes.
-  (voce pode selecionar mais e uma variante para o paciente)
+  (voce pode selecionar mais de uma variante para o paciente)
   
   para poder atualizar ou deletar um paciente ou uma variante vc deve copiar o seu id e colocar na guia em frente desta maneira:
   
